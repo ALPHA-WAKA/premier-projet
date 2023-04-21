@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.b {
+    border: 1px solid #000
+}
+
+.flex {
+    display: flex
+}
+
+.wrap {
+    flex-wrap: wrap
+}
+
+.nowrap {
+    flex-wrap: nowrap
+}
+
+.column {
+    flex-direction: column
+}
+
+.flex-1 {
+    flex: 1
+}
+
+.flex-2 {
+    flex: 2
+}
+
+.flex-3 {
+    flex: 3
+}
+
+.flex-4 {
+    flex: 4
+}
+
+.flex-5 {
+    flex: 5
+}
+
+.gap-5 {
+    gap: 5px
+}
+
+.gap-10 {
+    gap: 10px
+}
+
+.gap-15 {
+    gap: 15px
+}
+
+.gap-20 {
+    gap: 20px
+}
+
+.gap-25 {
+    gap: 25px
+}
+
+.gap-30 {
+    gap: 30px
+}
+
+.flex-center-h,
+.jcc {
+    justify-content: center
+}
+
+.aic,
+.flex-center-v {
+    align-items: center
+}
+
+.relative {
+    position: relative
+}
+
+.absolute {
+    position: absolute
+}
+
+.fixed {
+    position: fixed
+}
+
+.sticky {
+    position: sticky
+}
+
+.none {
+    display: none
+}
+
+.block {
+    display: block
+}
+
+.bold {
+    font-weight: 700
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.m-5 {
+    margin: 5px
+}
+
+.m-10 {
+    margin: 10px
+}
+
+.m-15 {
+    margin: 15px
+}
+
+.m-20 {
+    margin: 20px
+}
+
+.m-25 {
+    margin: 25px
+}
+
+.p-5 {
+    padding: 5px
+}
+
+.p-10 {
+    padding: 10px
+}
+
+.p-15 {
+    padding: 15px
+}
+
+.p-20 {
+    padding: 20px
+}
+
+.p-25 {
+    padding: 25px
+}
+
+.dropdown::after {
+    content: "\1F893";
+    padding-left: 2px;
+    position: relative;
+    top: 5px
+}
+
+.burger-icon::after {
+    content: '\002630';
+    float: right
+}
+
+::-webkit-scrollbar {
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: pointer
+}
