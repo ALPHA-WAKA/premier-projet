@@ -10,12 +10,14 @@
 }
 /* ///////menu///////// */
 .container-menu{
-   border-right: 20px solid#ccc;
+   border-right: 15px solid#efefef;
+   background-color: #efefef;
     height: 100vh;
   
 }
 .profil{
     display: flex;
+    background-color: white;
 }
 .profil .profil-image{
    padding: 20px;
@@ -36,14 +38,14 @@
     color: var(--main-color-gray);
 }
 .aside li{
-    border: 1px solid var(--main-color-white);
+    border: 1px solid #efefef;
     padding: 10px;
     display: flex;
     justify-content: center;
     flex: 1;
     font-weight: bold;
     font-size: 0.8;
-    background-color: var(--main-color-gray);
+    background-color:white;
     padding: 10px;
 }
 .aside li .active{
@@ -57,6 +59,12 @@
 }
 .active{
     height: 20px;
+    background-color: #efefef ;
+ 
+}
+.social-network{
+    display: flex;
+    flex: 1;
 }
 .social-network i{
     font-size: 1.5rem;
@@ -69,5 +77,46 @@
 
 /* ///////PAGE///////// */
 .container-page{
-    background-color: red;
+  background-image: url(/image/programmer-1653351_1280.png);
 }
+.container-page img{
+    opacity: 1;
+}
+.page-name{
+    
+    font-weight: bold;
+    color: white;
+    
+}
+.page-details{
+    color: white;
+    font-weight: bold;
+  font-size: 1.3rem;
+    
+height: 300px;}
+    .page-name{
+        height: 200px;
+    }
+.page-age-title,.page-adress-title,.page-email-title,
+.page-phone-title,.page-freelance-title{ 
+    
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid orange;
+    margin-left: 0;
+
+} 
+/* Définition de l'animation */
+@keyframes changement-texte {
+    0% { content: "web-designer"; }
+    50% { content: "front-dev"; }
+    100% { content: "web-designer"; }
+  }
+  
+  /* Application de l'animation à la balise h2 à l'intérieur d'une div de classe "menu-tre" */
+ .page-prof h2 {
+    animation-name: changement-texte;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
