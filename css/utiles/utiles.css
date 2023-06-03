@@ -73,6 +73,9 @@ body {
 .jcc {
     justify-content: center
 }
+.jcsb{
+    justify-content: space-between;
+}
 
 .aic,
 .flex-center-v {

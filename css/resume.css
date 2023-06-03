@@ -1,0 +1,174 @@
+
+        /* Resume */
+        .content-first{
+            
+
+        }
+        .about-me-content {
+            
+        }
+    
+    .content-first .content-first-para1  {
+        overflow: auto;
+      }
+      
+      .content-first .content-first-para1 p{
+        word-wrap: brek-word;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+      }
+     .content-first .content-texte{
+        width: 300px;
+     }
+     .content-second .content-texte{
+        width: 300px;
+     }
+     .content-first , .content-second,.content-first-year,.content-second-year{
+        margin: 10px;
+     }
+     .content-second-title,.content-texte {
+        padding-left: 0px;
+     }
+ .content-second-title p{
+    font-size: 1rem;
+    color: gray;
+
+ }
+ .content-first, .content-second {
+    width: 300px;
+   
+  
+ }
+
+ .first-title h3{
+    border-bottom: 1px solid orange;
+    width: 100px;
+ }
+ .content-first-year{
+
+ 
+    background-color: green
+    ;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+
+ }
+.content-second-year {
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    width: 150px;
+
+ }
+ .resume-skills-first{
+    margin-bottom: 40px;
+ }
+/* Button */
+.resume-cv{
+    margin: 10px;
+    padding: 20px;
+}
+.btn-cv{
+    padding: 20px;
+  border: 2px solid orange;
+    background-color: white;
+    cursor: pointer;
+}
+.skills-title{
+    border-bottom: 1px solid orange;
+    width: 120px;
+    margin-bottom: 10px;
+    
+}
+
+/* Animation */
+.element{
+    position: relative;
+    margin: 5px;
+  }
+.element-title{
+    font-weight: bold;
+}
+  .element div{
+    height : 10px ;
+  }
+  .element>div{
+    display: inline-block;
+    -webkit-box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,0.75);
+  }
+  .graphique1,.graphique2,.graphique3{
+   width: 0px;
+    border-radius : 5px;
+    background-color: orange ;
+    
+}
+.graphique1{
+      animation : anim1 4s ease-in 1 both;
+
+  }
+  .graphique2{
+    animation : anim2 4s ease-in 1 both;
+
+  }
+  .graphique3{
+    animation : anim3 4s ease-in 1 both;
+ 
+  }
+  @keyframes anim1{
+    form{
+      width : 20px;
+    }
+    to{
+      width : 230px;
+    }
+  }
+  @keyframes anim2{
+    form{
+      width : 20px;
+    }
+    to{
+      width : 170px;
+    }
+  }
+  @keyframes anim3{
+    form{
+      width : 20px;
+    }
+    to{
+      width : 120px;
+    }
+  }
+  .cadre{
+  width: 250px;
+    position :absolute;
+    border: 2px solid orange;
+    border-radius:5px;
+    top : 2px ;
+  
+  }
+  @media screen and (max-width: 950px) and (min-width: 700px){
+    .content-first, .content-second {
+      width: 250px;
+      }
+      .content-first .content-texte{
+        width: 200px;
+     }
+     .content-second .content-texte{
+        width: 200px;
+     }
+  
+    }
+    @media screen and (min-width: 700px) {
+      .resume-content{
+       display: flex;
+       justify-content: center;
+      
+      }
+        }
+    
+  
+  

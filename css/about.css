@@ -1,0 +1,173 @@
+
+  .about-me-second{
+    color: gray;
+    font-weight: bold;
+  }
+  .about-me-header{
+    margin-bottom: 30px;
+  }
+  .content-fisrt-title{
+    font-size: 1.4rem;
+    margin: 5px;
+    margin-bottom: 20px;
+  }
+
+  .content-first-para1{
+  line-height: 20px;
+  color: #1d1d1d;
+  }
+  .content-first-para2{
+    margin-top: 20px;
+    color: #1d1d1d;
+    line-height: 20px;
+
+
+  }
+  .content-second-title{
+    font-size: 1.4rem;
+    margin: 5px;
+    margin-bottom: 20px;
+    border-bottom: #1d1d1d;
+}
+
+  .content-second-commentary{
+    text-align: center;
+    margin-left: 100px;
+    width: 200px;
+    height: 120px;
+    background-color: #efefef;
+    color: #1d1d1d;
+    border-radius: 10px;
+  }
+  .content-second-profil-img{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+ top: 25px;
+ left: -10px;
+  
+   z-index: 999999;
+  }
+  .content-second-profil{
+    padding-left: 135px;
+  }
+  .profil-name,.profil-sous-name{
+    font-size: 0.9rem;
+  }
+  .profil-icons{
+    padding: 0 20px ;
+  }
+  .profil-icons-prev,.profil-icons-next{
+    background-color: #efefef;
+    width: 15px;
+    margin: 2px;
+    cursor: pointer;
+  }
+  .about-me-services{
+    padding-left: 60px;
+
+    margin: 20px;
+  }
+
+  .services,.fun-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .service-first {
+    flex-basis: 10%;
+    max-width: 50%;
+    width: 50px;
+  }
+  .fun-fact-first {
+    margin: 10px;
+  }
+  
+  
+  .sevices-title{
+    font-weight: bold;
+    margin: 10px;
+  }
+  .sevices-text{
+    text-align: center;
+    line-height: 20px;
+  }
+  .clients-logos{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .client-logo-first{
+    display: flex;
+   margin: 10px 0;
+    flex-basis: 10%;
+    max-width: 50%;
+    width: 50px;
+    justify-content: center;
+
+  
+
+  }
+  .about-me-clients{
+    padding-left: 60px;
+    margin: 20px;
+
+  }
+  .clients-title{
+    margin: 10px;
+    border-bottom: orange;
+
+  }
+  .clients-logos{
+    width: 500px;
+  }
+  .about-me-fun{
+    padding-left: 60px;
+
+  }
+  .fun-fact-first{
+    background-color: #efefef;
+    width: 150px;
+    height: 150px;
+  }
+  .fa-face-smile,.fa-business-time,.fa-medal,.fa-mug-saucer{
+    font-weight: 10px;
+    font-size: 3rem;
+    color: gray;
+  }
+  .fun-fact-name {
+    margin: 20px 0;
+     font-size: 1rem;
+  }
+  .fun-fact-value {
+    color: orange;
+    font-size: 1.5rem;
+  }
+  .fun-container{
+    padding: 5px;
+  }
+.title-decoration{
+  position: absolute;
+  padding-left: 60px;
+    background-color:orange;
+    color: white;
+left: -10px;
+}
+
+      /* Media query for screen width less than 800px */
+      @media screen and (max-width: 800px) {
+        .service-first,.client-logo-first {
+          flex-basis: 100%;
+          max-width: 100%;
+        }
+
+        
+      }
+          @media screen and (min-width:700px) {
+          .about-me-content {
+            display: flex;
+          }
+          }
+        

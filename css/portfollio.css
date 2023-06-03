@@ -1,0 +1,38 @@
+  /* .......portfollio... */
+  .container .header-name,.resume-first{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    padding: 5px 15px;
+    margin: 0 0px;
+    }
+    .container{
+      height: 100%;
+    }
+    .container .header-sous-name{
+      color: gray;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    .portefollio-parts {
+      width: 500px;
+      justify-content: center;
+      transform: translate(50% 50%);
+    } 
+  .active2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+      font-weight: bold;
+      background-color: orange;
+      color: white;
+    width: 100px;
+    margin: 5px;
+  }
+  .content-img{
+      margin: 10px;
+      width: 200px;
+      height: 200px;
+  }

@@ -1,3 +1,10 @@
 @import url(/css/style.css);
 @import url(/css/utiles/utiles.css);
 @import url(/css/color.css);
+@import url(/css/home.css);
+@import url(/css/about.css);
+@import url(/css/resume.css);
+@import url(/css/portfollio.css);
+@import url(/css/contact.css);
+@import url(/css/menu.css);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
