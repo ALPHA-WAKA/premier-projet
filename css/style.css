@@ -4,6 +4,23 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
+.container-header {
+   
+    width: 87%;
+    justify-content: space-between ;
+    margin: 4px 25px;
+    padding: px;
+}
+.container-header h1{
+    font-size: 1.5rem;
+
+}
+.container-header i{
+    font-size: 1.5rem;
+
+}
+
+
 .container{
     height: 100vh;
     width: 100%;
@@ -14,6 +31,9 @@
    background-color: #efefef;
     height: 100vh;
   
+}
+#menu:target{
+    display: block !important;
 }
 .profil{
     display: flex;
@@ -37,36 +57,44 @@
     font-weight: bold;
     color: var(--main-color-gray);
 }
+.aside ul{
+    width: 100%;
+}
 .aside li{
+    
     border: 1px solid #efefef;
-    padding: 10px;
+    
     display: flex;
     justify-content: center;
     flex: 1;
     font-weight: bold;
     font-size: 0.8;
     background-color:white;
-    padding: 10px;
+    height: 40px;
+    
 }
 .aside li .active{
     border-right: 2px solid orange;
-
+    
+    
 }
 .aside a{
+    height: 40px;
     color: black;
     text-decoration: none;
-   
+    
 }
 .active{
     height: 20px;
     background-color: #efefef ;
- 
+    
 }
 .social-network{
     display: flex;
     flex: 1;
 }
 .social-network i{
+    
     font-size: 1.5rem;
     margin: 5px;
     color: gray;
@@ -76,47 +104,78 @@
 
 
 /* ///////PAGE///////// */
-.container-page{
-  background-image: url(/image/programmer-1653351_1280.png);
+.page{
+background-image: url(/programmer-1653351_1280.png);
+background-color: rgba(255, 255, 255, 0,5); /* Définit une couleur de fond semi-transparente */
+/* Réduit l'opacité de l'image à 50% */
+  color: black; /* Définit la couleur du texte à blanc */
 }
-.container-page img{
-    opacity: 1;
+.container-page{
+    width: 500px;
+    height: 400px;
 }
 .page-name{
-    
+   
+    margin-bottom: 10px;
     font-weight: bold;
     color: white;
+   transform: translate(0% ,10%);
     
 }
 .page-details{
     color: white;
     font-weight: bold;
   font-size: 1.3rem;
+    height: 300px;}
     
-height: 300px;}
-    .page-name{
-        height: 200px;
-    }
 .page-age-title,.page-adress-title,.page-email-title,
 .page-phone-title,.page-freelance-title{ 
     
     margin-right: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     border-bottom: 1px solid orange;
     margin-left: 0;
 
 } 
+.page-prof{
+  
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
 /* Définition de l'animation */
-@keyframes changement-texte {
-    0% { content: "web-designer"; }
-    50% { content: "front-dev"; }
-    100% { content: "web-designer"; }
+
+    @keyframes change-text {
+        10% {
+           content: "Web-designer";
+            color: white;
+            letter-spacing: 5px;
+
+        }
+    100% {
+            content: "Frontend-developper";
+            color: white;
+           
+            letter-spacing: 10px;
+        }
+    
   }
   
   /* Application de l'animation à la balise h2 à l'intérieur d'une div de classe "menu-tre" */
- .page-prof h2 {
-    animation-name: changement-texte;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+ .page-prof h2::after{
+    content: "";
+    animation: change-text 10s linear infinite;
   }
-  
+  @media screen and (max-width: 1017px){
+    .menu{
+        background-color: red;
+    
+
+    }
+    .page{
+      
+    }
+   .header-container {
+        display: block !important;
+    }
+  }
